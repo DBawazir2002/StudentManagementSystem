@@ -49,7 +49,7 @@
                         <td>{{$key+=1}}</td>
                         <td>{{$student->studentIdentity}}</td>
                         <td>{{$student->userName}}</td>
-                        <td>{{$student->classStudy->className}}</td>
+                        <td>{{$student->classStudy?->className}}</td>
                         <td>{{$student->name}}</td>
                         <td>{{$student->email}}</td>
                         <td>{{$student->dateOfAdmission}}</td>

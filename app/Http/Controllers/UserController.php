@@ -19,6 +19,7 @@ class UserController extends Controller
     public function index()
     {
             $students = Student::with('classStudy')->paginate(15);
+            
         return view('admin.students.students',compact('students'));
     }
 

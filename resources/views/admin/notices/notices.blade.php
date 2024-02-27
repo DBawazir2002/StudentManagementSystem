@@ -43,7 +43,7 @@
                         <tr>
                             <td>{{$key+=1}}</td>
                             <td>{{$row->noticeTitle}}</td>
-                            <td>{{$row->classStudy->className}}</td>
+                            <td>{{$row->classStudy?->className}}</td>
                             <td>{{$row->classStudy->section}}</td>
                             <td>{{$row->created_at}}</td>
                             <td>
