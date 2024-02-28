@@ -5,7 +5,8 @@
 # 1. cp .env.example .env
 # 2. composer install
 # 4. php artisan key:generate
-# 5. php artisan serve
+# 5. php artisan migrate --seed
+# 6. php artisan serve
 
 # To access admin dashboard these credentials:
 # 1. email => admin@gmail.com
