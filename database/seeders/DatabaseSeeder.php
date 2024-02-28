@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Hash;
 
 class DatabaseSeeder extends Seeder
 {
+
     /**
      * Seed the application's database.
      */
@@ -33,12 +34,12 @@ class DatabaseSeeder extends Seeder
         Student::insert([
             'name' => 'test',
             'userName' => 'test',
-            'email' => 'test@gmail.com',
-            'password' => Hash::make('testtest'),
+            'email' => 'user@gmail.com',
+            'password' => Hash::make('useruser'),
             'classStudy_id' => '1',
             'gender' => 'Meal',
             'dateOfBirth' => now(),
-            'studentIdentity' => 'testtest',
+            'studentIdentity' => 'useruser',
             'fatherName' => 'fatherName',
             'motherName' => 'motherName',
             'contactNumber' => rand(5,10),
