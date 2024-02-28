@@ -4,10 +4,8 @@
 # To operate this project following these steps:
 # 1. cp .env.example .env
 # 2. composer install
-# 3. npm install
 # 4. php artisan key:generate
 # 5. php artisan serve
-# 6. npm run dev
 
 # To access admin dashboard these credentials:
 # 1. email => admin@gmail.com
